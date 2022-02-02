@@ -21,12 +21,3 @@ function encrypt(text) {
     const result = document.getElementById("result");
     result.textContent = rot13(text);
 }
-
-const textarea = document.getElementById("textarea");
-
-textarea.addEventListener("keyup", function (event) {
-    if (event.keyCode === 13) {
-        event.preventDefault();
-        document.getElementById("button").click();
-    }
-});

@@ -9,7 +9,7 @@ parent {
     transform: translate(-50%, -50%);
 }
 
-input {
+textarea {
     width: 376.8px;
     border: 1px solid black;
 }
@@ -35,22 +35,4 @@ p {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-}
-
-::-webkit-input-placeholder {
-    text-align: center;
-}
-
-:-moz-placeholder {
-    /* Firefox 18- */
-    text-align: center;
-}
-
-::-moz-placeholder {
-    /* Firefox 19+ */
-    text-align: center;
-}
-
-:-ms-input-placeholder {
-    text-align: center;
 }
