@@ -6,6 +6,10 @@ function rot13(str) {
         arrFinal.push(String.fromCharCode(str.charCodeAt(i) + 13));
       } else if (str.charCodeAt(i) > 77 && str.charCodeAt(i) < 91) {
         arrFinal.push(String.fromCharCode(str.charCodeAt(i) - 13));
+      } else if (str.charCodeAt(i) > 96 && str.charCodeAt(i) < 110) {
+        arrFinal.push(String.fromCharCode(str.charCodeAt(i) + 13));
+      } else if (str.charCodeAt(i) > 109 && str.charCodeAt(i) < 123) {
+        arrFinal.push(String.fromCharCode(str.charCodeAt(i) - 13 ));
       } else {
         arrFinal.push(String.fromCharCode(str.charCodeAt(i)));
       }
